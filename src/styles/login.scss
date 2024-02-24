@@ -1,0 +1,140 @@
+@import "colors";
+.form-body{
+    background-color: rgba(16, 0, 29, 0.32);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    >.form-page{
+        background: transparent;
+        backdrop-filter: blur(20px);
+        background-color: rgba(16, 0, 29, 0.32);
+        width: 80%; 
+        height: 70vh;
+        border-radius: 10px;
+        display: flex; 
+
+        >.left{
+            // background-color: aquamarine;
+            border-radius: 10px 0px 0px 10px;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .loginform{
+                // border: 2px solid red;
+                width: 60%;
+                height: 95%;
+                background-image:linear-gradient(60deg, rgb(248, 166, 255), rgb(255, 126, 148)); 
+                backdrop-filter: blur(20px);
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: flex-start;
+                padding: 30px;
+
+                h1{
+                  font-size: 3.5rem;
+                  border-bottom: 4px solid rgb(255, 255, 255);
+                }
+
+                .dwn{
+                    // border: 2px solid red;
+                    width: 100%; 
+                    height: 40%;
+                    padding: 0 30px;
+                   
+                    label{
+                        font: 600 1.2rem $text;
+                    }
+
+                    >.forget{
+                        width: 100%; 
+                        display: flex;
+                        justify-content: flex-end;
+                        font: 600 1rem $text; 
+                        cursor: pointer;
+                    }
+
+
+                    >input{
+                        width: 100%;
+                        height: 30%;
+                        margin: 5px 0 20px 0;
+                        border-radius: 10px;
+                        outline: 0;
+                        padding: 0 20px;
+                        font: 600 1rem $text;
+                    }
+                    #pass{
+                        margin-bottom: 10px;
+                    }
+
+                }
+                .dwn1{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    // border: 2px solid blue;
+                    width: 100%;
+
+                    >.new{
+                        margin-top: 15px;
+                        width: 85%;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        span{
+                            visibility: hidden;
+                        }
+                        font: 600 1rem $text;
+                        a{
+                            color: black;
+                            cursor: pointer;
+                        }
+                    }
+
+                    >.loginbtn{
+                        width: 85%;
+                        height: 3rem;
+                        border-radius: 50px;
+                        margin-top: 100px;
+                        font: 700 1.4rem $text;
+                        cursor: pointer;
+                        // background-image: linear-gradient(210deg, rgb(249, 197, 255), rgb(255, 187, 199));
+                        background-color: rgba(255, 211, 211, 0.874);
+                        // color: white;
+
+                        &:hover{
+                            // background-image: linear-gradient(210deg, rgb(247, 179, 255), rgb(255, 173, 188));
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+
+        }
+        >.right{
+            // background-color: rgb(145, 64, 170);
+            border-radius: 0px 10px 10px 0px;
+            height: 100%;
+            width: 40%;
+
+            >img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px 0px 0px 10px;
+                // object-fit: cover;
+            }
+        }
+    }
+    
+}
+
