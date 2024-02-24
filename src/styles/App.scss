@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Poppins:wght@400;600&display=swap');
+
+@import "colors";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono" ,"Anta" ,sans-serif;
+    scroll-behavior: smooth;
+    // background-color: rgb(24, 0, 41);
+    text-decoration: none;
+    // color: $pcolr;
+}
+body{
+    color:$pcolr;
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+.question-form{
+    background-color: rgba(2, 0, 114, 0.3);
+    border-radius: 10px;
+    width: 96%;  
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 5rem;
+    gap: 2rem;
+    display: flex; 
+    flex-direction: column;
+    >h1{
+        font-size:2.5rem;
+    }
+}
+
+form{
+   display: flex;
+   gap: 2rem;
+   /* width: 70%; */
+}
+
+.form-group{
+    background-color: rgba(3, 0, 95, 0.573);
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+.lft{
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   width: 75%;
+}
+
+.rgt{
+    display: flex;
+   flex-direction: column;
+}
+
+.rgt>img{
+   width: 320px;
+   height: 350px;
+   border-radius: 10px;
+   object-fit: cover;
+   margin: 2rem;
+}
+
+.form-label{
+    font:700 1.7rem "sans-serif";
+    margin-top: 1rem;
+}
+
+.opt-group input{
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    background-color: rgba(0, 211, 56, 0.731);
+    color: white; 
+}
+
+.opt-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.btnopt{
+    background-color: rgb(71, 70, 148);
+    padding: .5rem;
+    border-radius: 8px;
+    margin: 1rem;
+    font: 700 1.4rem "sans-serif";
+    cursor: pointer;
+}
+
+.btnopt:hover{
+    opacity: 0.8;
+}
+
+.btn{
+    cursor: pointer;
+    font: 800 1.5rem "sans-serif"; 
+    border-radius: 10px;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: white;
+}
+
+.btn-1{
+    padding: 0.5rem;
+    background-color: rgb(79, 76, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-1:hover{
+opacity: 0.8;
+}

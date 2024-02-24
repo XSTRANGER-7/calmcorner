@@ -1,0 +1,227 @@
+@import "colors";
+@media (min-width: 855px) and (max-width: 977px){
+
+ .home{
+    height: 86vh;
+ }   
+ .home3{
+    >.lwr{
+        > .elm1{
+            margin: 1rem;
+            height: 60%;
+            width: 27%;
+        }
+
+    }
+ }
+
+ .home4{
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font: 300 1.1rem $text2;
+    }
+ }
+
+ .home5{ 
+    .lft{
+        width: 60%;
+        form{
+            width: 100%;
+        }
+    } 
+ }
+ footer{
+    .lefty{
+        gap: 1rem;
+    }
+ }
+}
+
+@media (min-width: 500px) and (max-width: 855px){
+ 
+
+  .home{
+    width: 100vh;
+    height: 66vh;
+   div{
+    height: 71vh;
+   }
+  }
+  .home2{
+    width: 100vh;
+  }
+
+  .home3{
+    width: 100vh;
+    >.lwr{
+        .elm1{
+            width: 27%;
+            margin: 1rem;
+            height: 61%;
+
+        }
+    }
+  }
+
+  .home4{
+    width: 100vh;
+    padding: 0.1rem 2rem;
+  }
+
+  .home5{
+    align-items: center;
+    width: 100vh;
+    >.lft{
+        height: 80%;
+        width: 60%;
+        form{
+            width: 80%; 
+        }
+    }
+  }
+
+  footer{
+    width: 100vh;
+  }
+
+}
+
+@media (max-width :500px){
+
+    nav{
+        position: fixed;
+        padding: 2rem 1.5rem;
+        width: 100%;
+        > main{
+             > a{
+                margin: 0px 20px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+  .home{
+     width: 123vh;
+    //  background: url(../assests/test.jpg);
+     background-size: cover; 
+     background-position: center;
+     >div{
+        display: none;
+     }
+  }
+
+  .home2{
+     width: 123vh;
+     height: 200vh;
+     flex-direction: column;
+
+     >img{
+        width: 450px;
+        height: 450px;
+        margin: 2rem 0;
+     }
+      >div{
+        width: 95%;
+
+        p{
+            font-size: 1.8rem;
+        }
+      }
+  }
+
+  .home3{
+     width: 123vh;
+     height: 350vh;
+
+     h1{
+        margin-bottom: 20px;
+     }
+     > .lwr{ 
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .elm1{
+            width: 50%;
+            height: 100%;
+
+            #learn{
+                height: 500px;
+            }
+        }
+     }
+
+  }
+
+  .home4{
+     width: 123vh;
+     height: 220vh;
+     padding: 4.2rem 3.5rem 1rem 3.5rem;
+
+     h1{
+        font-size: 4rem;
+     }
+     p{
+        font-size: 1.6rem;
+     }
+  }
+
+  .home5{
+     width: 123vh;
+     height: 200vh;
+     align-items: center;
+     justify-content: center;
+
+     >.rgt{
+        display: none;
+     }
+     >.lft{
+        // margin: 20px 15px 10px 15px;
+        border-radius: 40px;
+        width: 90%;
+        height: 75%;
+
+        h1{
+            font-size: 4rem;
+        }
+
+        > form{
+            width: 100%;
+            gap: 50px;
+            height: 80%;
+
+            div{
+                 width: 90%;
+                 padding: 5px;
+                label{
+                    font-size: 1.5rem;
+                }
+
+                input{
+                    width: 70%;
+                    height: 50px;
+                    font-size: 1.5rem;
+                } 
+                textarea{
+                    font-size: 1.4rem;
+                }
+            }
+            button{
+                width: 70%;
+                height: 3rem;
+                border-radius: 50px;
+        }
+        }
+     }
+  }
+  footer{
+    width: 123vh;
+    padding: 0 20px;
+
+    .lefty{
+        padding: 0 10px;
+        gap: 2rem;
+    }
+  }
+
+}
