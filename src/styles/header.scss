@@ -23,7 +23,7 @@ nav{
         justify-content: flex-end;
 
         > a{
-            margin: 0 30px;
+            margin: 10px 30px;
             font-weight: 800;
             font-size: 1.2rem;
             letter-spacing: 0.5px;
@@ -31,4 +31,19 @@ nav{
         }
     }
 
+}
+
+#login{
+    background-color: rgb(255, 85, 113);
+    padding: 10px 25px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#register{
+    background-color: white;
+    color: rgb(255, 85, 113);
+    padding: 10px 17px;
+    border-radius: 10px;
+    margin: 0 20px 0 0px;
 }
