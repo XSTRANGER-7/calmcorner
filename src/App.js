@@ -12,8 +12,12 @@ import React from "react";
  import Relationship from "./components2/Relationship";
  import Skin from "./components2/Skin";
  import ResultPage from "./components2/ResultPage";
+ import Login from "./components/Login";
+ import Register from "./components/Register";
  import "./styles/App.scss"; 
  import "./styles/header.scss";
+ import "./styles/login.scss";
+ import "./styles/register.scss";
  import "./styles/home.scss";
  import "./styles/Footer.scss";
  import "./styles2/questionform.css";
@@ -24,7 +28,9 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" element = {<Home/>}/>  
+        <Route path="/" element = {<Home/>}/>
+        <Route path="/login" element = {<Login/>}/>  
+        <Route path="/register" element = {<Register/>}/>
         <Route path="/question" element = {<QuestionForm/>}/> 
         <Route path="/memory" element = {<Memory/>}/> 
         <Route path="/sleep" element = {<Sleep/>}/> 
