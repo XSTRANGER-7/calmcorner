@@ -1,17 +1,25 @@
 ## Procedure to setup locally:
+ [Create React App] (https://github.com/facebook/create-react-app).
 
-# Getting Started with Create React App
+Then on our terminal, write below sets of commands.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+npm install
+```
+```
+npm start
+```
+Download `Xampp` app ,then start `Apache` and `MySql` services 
+Then, go to MySql Admin and create a new Database named `register`, in register create a table named `login` of 4 columns.
+In table,column names are `id`,`name`,`email`,`passwords`, in which the file name logins.
 
-# Available Scripts
+For enabling Python Chat-bot: (for linux)
 
-In the project directory, you can run:
-
-# `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+First set up Flask.
+<a href="https://github.com/pallets/flask">Click here for official Flask Documentation. </a>
+```
+python3 ./app.py
+```
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
