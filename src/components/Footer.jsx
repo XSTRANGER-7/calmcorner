@@ -1,12 +1,22 @@
 
 import React, { useState } from "react";
-import { AiOutlineMail, AiOutlineWhatsApp, AiOutlineTwitter, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import bot from "../assests/bott.png";
+
 
 const Footer = () => {
   const [message, setMessage] = useState("");
-  const [botResponse, setBotResponse] = useState("");
+  const [botResponse, setBotResponse] = useState(""); 
+
+    const [showButton, setShowButton] = useState(true);
+    const [showBox, setShowBox] = useState(false);
+  
+    const toggleVisibility = () => {
+      setShowButton(!showButton);
+      setShowBox(!showBox);
+    };
   
   const sendMessageToBot = async () => {
+    
     try {
       const response = await fetch('http://localhost:5000/api', {
         method: 'POST',
@@ -27,34 +37,23 @@ const Footer = () => {
     }
   };
 
-  return (
-    <footer>
-      <div className="lefty">
-        <h2>HeiwaHabu</h2>
-        <p>@all rights reserved</p>
-        <h3>Follow us on </h3>
-        <p>HeiwaHabu@gmail.com</p>
-      </div>
-      <div className="righty">
-        <AiOutlineMail />
-        <AiOutlineWhatsApp />
-        <AiOutlineTwitter />
-        <AiOutlineGithub />
-        <AiOutlineInstagram />
-        <AiOutlineLinkedin />
-      </div>
-      <div>
+  return ( 
+    <>
+    {showButton && (<div className="circle" onClick={toggleVisibility}><img src={bot} /></div>)}
+    
+    {showBox && (<div className="chat-container">
         <input 
           type="text" 
           value={message} 
           onChange={(e) => setMessage(e.target.value)} 
           placeholder="Type your message here" 
         />
-        <button onClick={sendMessageToBot}>Send</button>
-        {botResponse && <p>{botResponse}</p>}
-      </div>
-    </footer>
+         <button className="chat-button" onClick={sendMessageToBot}>Send</button>
+         <div className="chatbody">{botResponse && <div className="chat-box">{botResponse}</div>}</div>
+        
+      </div>)}
+      </>
   );
-};
+}; 
 
 export default Footer;

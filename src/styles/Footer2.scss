@@ -1,0 +1,21 @@
+
+footer{
+    background-color: black;
+    font-family: sans-serif;  
+    display: flex;
+    align-items: center; 
+}
+.lefty{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 30px;
+}
+.righty{
+    display: flex;
+    gap: 20px;
+}
+audio{
+    height: 30px;
+    margin-left: 10px;
+}
