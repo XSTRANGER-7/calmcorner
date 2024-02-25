@@ -1,4 +1,5 @@
 import React from "react";
+import audi from "../assests/audi1.mp3";
 import { AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp } from "react-icons/ai";
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
         <AiOutlineInstagram/>
         <AiOutlineLinkedin/>
       </div>
+      <audio controls autoPlay loop preload="auto" src={audi}/>
     </footer>
   );
 };

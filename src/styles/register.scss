@@ -26,10 +26,10 @@
             align-items: center;
             justify-content: center;
             
-            .loginform{
+            .lognform{
                 // border: 2px solid red;
                 width: 60%;
-                height: 90%;
+                height: 110%;
                 background-image:linear-gradient(60deg, rgb(248, 166, 255), rgb(255, 126, 148)); 
                 backdrop-filter: blur(20px);
                 border-radius: 20px;
@@ -37,24 +37,48 @@
                 flex-direction: column;
                 align-items: center;
                 // justify-content: flex-start;
-                padding: 30px;
+                padding: 20px;
 
-                h1{
-                  font-size: 3.5rem;
+                >.up{
+                    .register{
+                  font-size: 3rem;
                   border-bottom: 4px solid rgb(255, 255, 255);
                 }
+            }
 
                 .dwn{
                     // border: 2px solid red;
                     width: 100%; 
-                    height: 40%;
+                    height: 65%;
                     padding: 0 30px;
-                   
-                    label{
-                        font: 600 1.2rem $text;
-                    }
 
-                    >.forget{
+                    >.form-grop{
+
+                        >.text-danger{
+                            color: yellow; 
+                            font: 500 1rem $text;
+                          }
+
+                        label{
+                            font: 600 1.2rem $text;
+                        }
+
+                        >input{
+                            width: 100%;
+                            height: 50px;
+                            margin: 5px 0 30px 0;
+                            border-radius: 10px;
+                            outline: 0;
+                            padding: 0 20px;
+                            font: 600 1rem $text;
+                        }
+                        #pass1{
+                            margin-bottom: 15px;
+                        }
+                    }
+                   
+
+                    .forget{
                         width: 100%; 
                         display: flex;
                         justify-content: flex-end;
@@ -63,28 +87,21 @@
                     }
 
 
-                    >input{
-                        width: 100%;
-                        height: 30%;
-                        margin: 5px 0 30px 0;
-                        border-radius: 10px;
-                        outline: 0;
-                        padding: 0 20px;
-                        font: 600 1rem $text;
-                    }
                     
 
                 }
                 .dwn1{
+                    // border:2px solid red ;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    // border: 2px solid blue;
+                    border: none;
                     width: 100%;
+                    height: 100px;
 
                     >.new{
-                        margin-top: 15px;
+                        margin-top: 10px;
                         width: 85%;
                         display: flex;
                         justify-content: flex-end;
@@ -99,11 +116,10 @@
                         }
                     }
 
-                    >.loginbtn{
+                    #lbtn{
                         width: 85%;
-                        height: 3rem;
-                        border-radius: 50px;
-                        margin-top: 110px;
+                        height: 50px;
+                        border-radius: 50px; 
                         font: 700 1.4rem $text;
                         cursor: pointer;
                         // background-image: linear-gradient(210deg, rgb(249, 197, 255), rgb(255, 187, 199));

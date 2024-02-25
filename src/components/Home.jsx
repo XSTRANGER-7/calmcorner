@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div>
                 <img src={img10} alt="img"/>
-                <p className="legend">Secure Your Data</p>
+                {/* <p className="legend">Secure Your Data</p> */}
             </div>
             <div>
                 <img src={img4} alt="img"/> 
