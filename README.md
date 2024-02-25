@@ -32,3 +32,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Video explanation:
 <a href="https://youtu.be/SrxD7AuYhwU?si=lxoccx4Z8TNeJeEQ">Click Here</a>
+ <video width="320" height="240" controls>
+  <source src="https://youtu.be/SrxD7AuYhwU?si=lxoccx4Z8TNeJeEQ">
+</video> 
