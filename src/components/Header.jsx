@@ -9,7 +9,7 @@ const Header = () => {
         <main>
             <HashLink to = {"/#home"}>Home</HashLink>
             <HashLink to = {"/#blogs"}>Blogs</HashLink>
-            <HashLink to = {"/register"}>Your Score</HashLink>
+            <HashLink to = {"/question"}>Your Score</HashLink>
             <HashLink to = {"/#about"}>About</HashLink>
             <HashLink to = {"/#contact"}>Contact</HashLink> 
             <HashLink id='login' to = {"/login"}>Login</HashLink>
