@@ -4,6 +4,11 @@
 Then on our terminal, write below sets of commands.
 
 ```
+npm install react-scripts
+
+```
+
+```
 npm install
 ```
 ```
