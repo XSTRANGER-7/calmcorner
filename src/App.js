@@ -14,12 +14,14 @@ import React from "react";
  import ResultPage from "./components2/ResultPage";
  import Login from "./components/Login";
  import Register from "./components/Register";
+ import Footer2 from "./components/Footer2";
  import "./styles/App.scss"; 
  import "./styles/header.scss";
  import "./styles/login.scss";
  import "./styles/register.scss";
  import "./styles/home.scss";
  import "./styles/Footer.scss";
+ import "./styles/Footer2.scss";
  import "./styles2/questionform.css";
  import "./styles/mediaquries.scss";
 
@@ -42,6 +44,7 @@ function App() {
         <Route path="/result" element = {<ResultPage/>}/> 
       </Routes>
       <Footer/>
+      <Footer2/>
     </Router>
   );
 }

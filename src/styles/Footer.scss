@@ -1,21 +1,94 @@
+.chat-container {
+    background-image:linear-gradient(60deg, rgb(248, 166, 255), rgb(255, 126, 148));
+    color: white;
+    border: none;
+    width: 260px;
+    height: 340px;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
 
-footer{
-    background-color: black;
-    font-family: sans-serif;  
-    display: flex;
-    align-items: center; 
-}
-.lefty{
+    >input{
+        border-radius: 7px;
+        border: 0;
+        height: 30px;
+        width: 100%;
+    }
+    
+  }
+  
+  .chat-button {
+    background-color: #a318ff;
+    color: white;
+    border: none;
+    width: 240px;
+    height: 10px;
     display: flex;
     align-items: center;
-    gap: 3rem;
-    padding: 0 30px;
-}
-.righty{
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .chat-body{
+    border: 2px solid red;
+    width: 20px;
+    height: 80px;
+  }
+  
+  .chat-box {
+    background-color: #e7008ff2;
+    color: white;
+    border: none;
+    width: 240px; 
     display: flex;
-    gap: 20px;
-}
-audio{
-    height: 30px;
-    margin-left: 10px;
-}
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    position: fixed;
+    // bottom: 240px;
+    right: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .circle{
+    background-color: #f41287dc;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin: 25px;
+    cursor: pointer;
+
+    >img{
+        width: 95px;
+        height: 95px;
+        object-fit: cover;
+    }
+  }
+
+
+  

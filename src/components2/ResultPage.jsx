@@ -1,6 +1,6 @@
 // ResultPage.js
 import React from 'react';
-import img from "../assests2/img18.jpeg";
+import img from "../assests/qr.jpg";
 import { useLocation } from 'react-router-dom';
 const ResultPage = () => {
 
