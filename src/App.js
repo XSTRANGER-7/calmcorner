@@ -25,7 +25,7 @@ import React from "react";
  import "./styles/Footer2.scss";
  import "./styles2/questionform.css";
  import "./styles/mediaquries.scss";
- 
+
 function App() {
   return (
     <Router>
@@ -45,7 +45,7 @@ function App() {
         <Route path="/skin" element = {<Skin/>}/> 
         <Route path="/result" element = {<ResultPage/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
       <Footer2/>
     </Router>
   );
