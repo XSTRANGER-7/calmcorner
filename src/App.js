@@ -14,6 +14,7 @@ import React from "react";
  import ResultPage from "./components2/ResultPage";
  import Login from "./components/Login";
  import Register from "./components/Register";
+ import Contact from "./components/Contact";
  import Footer2 from "./components/Footer2";
  import "./styles/App.scss"; 
  import "./styles/header.scss";
@@ -31,6 +32,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element = {<Home/>}/>
+        <Route path="/contact" element = {<Contact/>}/>
         <Route path="/login" element = {<Login/>}/>  
         <Route path="/register" element = {<Register/>}/>
         <Route path="/question" element = {<QuestionForm/>}/> 

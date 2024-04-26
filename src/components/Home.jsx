@@ -3,7 +3,6 @@ import img4 from "../assests/img14.jpg";
 import img7 from "../assests/img17.jpg";
 import img8 from "../assests/img18.png";
 import img10 from "../assests/img20.png";
-import call from "../assests/img8.png";
 // import test from "../assests/test.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -64,33 +63,7 @@ Start your journey to emotional well-being today with Heiwa Habu.
             <p>At our platform, we go beyond conventional approaches to student support by harnessing the power of technology to quantify and understand the mental pressure students experience. Through advanced algorithms and assessments, we calculate your unique mental state, identifying areas of concern and stress. Once your mental profile is established, we connect you with a qualified mentor who specializes in addressing the challenges you may be facing. Our mentors serve as trusted guides, offering personalized solutions, coping mechanisms, and a supportive space for open dialogue. Whether it's academic stress, personal challenges, or general well-being, our goal is to provide holistic support tailored to your individual needs, ensuring that you thrive both academically and emotionally throughout your educational journey.</p>
             </div>
       </div>
-      <div className="home5" id="contact">
-         <div className="lft">
-            <h1>Contact Us</h1>
-            <form>
-            <div>
-                <label for="name">Name : </label>
-                <input type="text" placeholder="NAME" required id="name"/>
-            </div>
-            <div>
-                <label for="cont">Contact No : </label>
-                <input type="tel" placeholder="XXXXXXXXXX (10 Digits Mobile no.)" pattern= "[0-9]{10}" required id="cont"/>
-            </div>
-            <div>
-                <label for="mail">Mail Id : </label>
-                <input type="email" placeholder="XXXXXXX@gmail.com" required id="mail"/>
-            </div>
-            <div>
-               <label for="myTextarea">Enter your Query:</label>
-               <textarea id="myTextarea" rows="5" cols="40" placeholder="this is area where u can type your problem "/>
-            </div> 
-            <button>Submit</button>
-            </form>
-         </div>
-         <div className="rgt">
-            <img src= {call} alt="call"/>
-         </div>
-      </div>
+      
     </>
   );
 };
