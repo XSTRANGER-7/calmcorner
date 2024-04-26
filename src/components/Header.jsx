@@ -11,6 +11,7 @@ const Header = () => {
             <HashLink to = {"/#blogs"}>Blogs</HashLink> 
             <HashLink to = {"https://play.unity.com/mg/other/vr-meeting-room-1"} target='_blank'>VR Room</HashLink>
             <HashLink to = {"/#team"}>Team</HashLink>
+            <HashLink to = {"/question"}>Your Score</HashLink>
             <HashLink to = {"/contact"}>Contact</HashLink> 
             <HashLink id='login' to = {"/login"}>Login</HashLink>
         </main>
