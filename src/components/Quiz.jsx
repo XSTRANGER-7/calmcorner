@@ -106,7 +106,7 @@ function Quiz() {
 
     return (
         <div className='outer-box-app'>
-            <p className="heading-txt">Quiz APP</p>
+            {/* <p className="heading-txt">Quiz APP</p> */}
             <div className="container-txt">
                 {showResult ? (
                     <QuizResult score={score} totalScore={40} tryAgain={resetAll} />

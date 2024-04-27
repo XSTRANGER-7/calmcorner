@@ -1,14 +1,12 @@
 import React from "react";
  import Header from "./components/Header";
- import Home from "./components/Home"; 
- import Footer from "./components/Footer";
+ import Home from "./components/Home";  
  import {BrowserRouter as Router ,Routes, Route} from "react-router-dom";
  import Login from "./components/Login";
  import Register from "./components/Register";
  import Contact from "./components/Contact";        
  import Footer2 from "./components/Footer2"; 
- import Quiz from "./components/Quiz";
- import QuestionForm from "./components2/QuestionForm";
+ import Quiz from "./components/Quiz";  
  import Memory from "./components2/Memory";
  import Sleep from "./components2/Sleep";
  import YourBody from "./components2/YourBody";
@@ -35,7 +33,7 @@ function App() {
         <Route path="/" element = {<Home/>}/>
         <Route path="/contact" element = {<Contact/>}/>
         <Route path="/login" element = {<Login/>}/>  
-        <Route path="/register" element = {<Register/>}/> 
+        <Route path="/register" element = {<Register/>}/>  
         {/* <Route path="/question" element = {<QuestionForm/>}/>  */}
         <Route path="/quiz" element = {<Quiz/>}/>
         <Route path="/memory" element = {<Memory/>}/> 

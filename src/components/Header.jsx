@@ -8,7 +8,7 @@ const Header = () => {
         <h1>Calm Corner</h1>
         <main>
             <HashLink to = {"/#home"}>Home</HashLink>
-            <HashLink to = {"/#blogs"}>Blogs</HashLink> 
+            <HashLink to = {"https://psychology.feedspot.com/mental_health_blogs/"} target='_blank'>Blogs</HashLink> 
             <HashLink to = {"https://play.unity.com/mg/other/vr-meeting-room-1"} target='_blank'>VR Room</HashLink>
             <HashLink to = {"/#team"}>Team</HashLink>
             <HashLink to = {"/quiz"}>Your Score</HashLink>
