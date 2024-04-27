@@ -7,6 +7,7 @@ import React from "react";
  import Register from "./components/Register";
  import Contact from "./components/Contact";        
  import Footer2 from "./components/Footer2"; 
+ import Quiz from "./components/Quiz";
  import QuestionForm from "./components2/QuestionForm";
  import Memory from "./components2/Memory";
  import Sleep from "./components2/Sleep";
@@ -35,7 +36,8 @@ function App() {
         <Route path="/contact" element = {<Contact/>}/>
         <Route path="/login" element = {<Login/>}/>  
         <Route path="/register" element = {<Register/>}/> 
-        <Route path="/question" element = {<QuestionForm/>}/> 
+        {/* <Route path="/question" element = {<QuestionForm/>}/>  */}
+        <Route path="/quiz" element = {<Quiz/>}/>
         <Route path="/memory" element = {<Memory/>}/> 
         <Route path="/sleep" element = {<Sleep/>}/> 
         <Route path="/yourbody" element = {<YourBody/>}/> 

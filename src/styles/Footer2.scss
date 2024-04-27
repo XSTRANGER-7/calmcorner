@@ -29,11 +29,14 @@ iframe{
     height: 250px;
     border-radius: 5px;
 }
-
+.linky{
+    display: flex;
+    gap: 15px;
+}
 .linky a{
     cursor: pointer;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
 }
 #qr2{
   width: 130px;
